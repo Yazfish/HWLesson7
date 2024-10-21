@@ -95,13 +95,15 @@ public class Main {
         System.out.println("\n Задача 4 \n");
         int[] code = {1, 2, 3};
         for (int y = 0; y < code.length; y++) {
-            if (code[y] % 2 != 0) ;
+            if (code[y] % 2 != 0)
             {
                 code[y] = code[y] + 1;
             }
         }
-        System.out.print(Arrays.toString(code));
-    }
-}
+                System.out.print(Arrays.toString(code));
+            }
+        }
+
+
 
 
